@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Narbar -->
+    <div class="header">
+        <div class="nav">
+            <ul class="nav__items">
+                <li class="nav__item"><a href="#">HOME</a></li>
+                <li class="nav__item"><a href="#band">BAND</a></li>
+                <li class="nav__item"><a href="#tour">TOUR</a></li>
+                <li class="nav__item"><a href="#contact">CONTACT</a></li>
+                <li class="nav__item">
+                    <a href="#">MORE
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="nav__item-menu">
+                        <li class="down"><a href="#">Merchandise</a></li>
+                        <li class="down"><a href="#">Extras</a></li>
+                        <li class="down"><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form action="" class="search-box">
+                <input class="search-text" type="text" placeholder="Tìm kiếm" required>
+                <button class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="main">
+        <div class="banner">
+            <div class="slideshow img1">
+                <img src="img/la.jpg">
+                <div class="img-text">
+                    <h3>Los Angeles</h3>
+                    <p><b>We had the best time playing at Venice Beach!</b></p>
+                </div>
+            </div>
+            <div class="slideshow img2">
+                <img src="img/ny.jpg">
+                <div class="img-text">
+                    <h3>New York</h3>
+                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+                </div>
+            </div>
+            <div class="slideshow img3">
+                <img src="img/chicago.jpg">
+                <div class="img-text">
+                    <h3>Chicago</h3>
+                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="band">
+            <h1 style="margin-bottom:20px">THE BAND</h1>
+            <p style="margin-bottom:20px"><i >We love music</i></p>
+            <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="image-container">
+                <div class="image-container3">
+                    <p>Name</p>
+                    <img src="img/bandmember.jpg" alt="">
+                </div>
+                <div class="image-container3">
+                    <p>Name</p>
+                    <img src="img/bandmember.jpg" alt="">
+                </div>
+                <div class="image-container3">
+                    <p>Name</p>
+                    <img src="img/bandmember.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="tour" id="tour">
+            <h1 style="margin-bottom:20px">TOUR DATES</h1>
+            <p style="margin-bottom:20px"><i>Remember to book your tickets!</i></p>
+            <div class="products">
+                <div class="months">
+                    <ul class="months-items">
+                        <li class="months-item"><a>September <span>Sold out</span></a></li>
+                        <hr>
+                        <li class="months-item"><a>October <span>Sold out</span></a></li>
+                        <hr>
+                        <li class="months-item">
+                            <a>November</a>
+                            <i>3</i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-items">
+                    <div class="product">
+                        <img src="img/newyork.jpg" alt="NewYork">
+                        <h3>New York</h3>
+                        <p>Fri 27 Nov 2016</p>
+                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
+                        <button class="button">Buy Tickets</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/\paris.jpg" alt="Paris">
+                        <h3>Paris</h3>
+                        <p>Sat 28 Nov 2016</p>
+                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
+                        <button class="button">Buy Tickets</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/sanfran.jpg" alt="San Francisco">
+                        <h3>San Francisco</h3>
+                        <p>Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
+                        <button class="button">Buy Tickets</button>
+                        <div class="payment-modal">
+                            <!-- Nội dung thanh toán -->
+                            <div class="payment-tickets">
+                                <div class="payment-header">
+                                    <i class="fa-solid fa-xmark"></i>
+                                    <div class="payment-title">
+                                        <h2 style="font-weight: 100;"><i class="fa-solid fa-suitcase"></i> Tickets</h2>
+                                    </div>
+                                </div>
+                                <div class="payment-body">
+                                    <form action="#" method="post">
+                                        <div class="payment-buy">
+                                            <p style="margin-top:20px; "><i class="fa-solid fa-cart-shopping"></i>
+                                                Tickets, $15 per person </p>
+                                            <input type="text" class="payment-text" name="name" placeholder="How many?"
+                                                required>
+                                            <p><i class="fa-solid fa-user"></i> Send To</p>
+                                            <input type="email" class="payment-email" name="email"
+                                                placeholder="Enter Email" required>
+                                        </div>
+                                        <button type="submit" class="payment-pay">PAY <i
+                                                class="fa-solid fa-check"></i></button>
+                                    </form>
+                                </div>
+                                <div class="payment-footer" style="
+                                height:80px;
+                                background-color:#fff;display: flex;
+                                flex-direction: row;
+                                text-align:center;
+                                align-items: center; margin:0;padding:0;">
+                                    <button>Close X</button>
+                                    <p style="position:absolute; right:0;margin-right:10px;">Need<a href="" class=""><i>
+                                                help?</i></a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container" id="contact">
+            <h1 class="contact-title">CONTACT</h1>
+            <p>Fan?Drop a note!</p>
+            <div class="contact-type">
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+                </div>
+                <span class="feedback">
+                    <form action="#" method="post">
+                        <div class="contact-input-container">
+                            <input type="text" class="contact-input" name="name" placeholder="Name" required>
+                            <input type="email" class="contact-input" name="email" placeholder="Email" required>
+                        </div>
+                        <input type="text" class="contact-input" name="message" placeholder="Message" required></input>
+                        <button type="submit" class="contact-button">SEND</button>
+                    </form>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img/map.jpg" alt="" style="width: 1550px;;
+            height: 800px;">
+        </div>
+    </div>
+
+
+</body>
+<footer>
+    <div class="footer" style="text-align: center; height:100px; margin-top:50px; margin-left:5px;">
+        <form action="#" method="post">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <p style="margin-top:10px;color:darkgrey">Powered by 
+                <a style="color:darkgrey" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3css</a>
+            </p>
+        </form>
+
+
+    </div>
+</footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buyButtons = document.querySelectorAll(".button");
+        const paymentModal = document.querySelector(".payment-modal");
+
+        for (const buyButton of buyButtons) {
+            buyButton.addEventListener("click", function () {
+                paymentModal.style.display = "flex";
+            });
+        }
+
+        const closeButton = document.querySelector(".payment-footer button");
+        const closeXButton = document.querySelector(".payment-header i");
+
+        closeButton.addEventListener("click", function () {
+            paymentModal.style.display = "none";
+        });
+
+        closeXButton.addEventListener("click", function () {
+            paymentModal.style.display = "none";
+        });
+    });
+
+</script>
+
+</html>
