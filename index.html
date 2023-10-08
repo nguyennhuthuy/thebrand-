@@ -1,242 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="style.css">
+    
 </head>
-
 <body>
-    <!-- Narbar -->
-    <div class="header">
-        <div class="nav">
-            <ul class="nav__items">
-                <li class="nav__item"><a href="#">HOME</a></li>
-                <li class="nav__item"><a href="#band">BAND</a></li>
-                <li class="nav__item"><a href="#tour">TOUR</a></li>
-                <li class="nav__item"><a href="#contact">CONTACT</a></li>
-                <li class="nav__item">
-                    <a href="#">MORE
+    <div id="main">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="">More
                         <i class="fa-solid fa-caret-down"></i>
                     </a>
-                    <ul class="nav__item-menu">
-                        <li class="down"><a href="#">Merchandise</a></li>
-                        <li class="down"><a href="#">Extras</a></li>
-                        <li class="down"><a href="#">Media</a></li>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
                     </ul>
                 </li>
             </ul>
-            <form action="" class="search-box">
-                <input class="search-text" type="text" placeholder="Tìm kiếm" required>
-                <button class="search-button">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-    </div>
-    </div>
-    <div class="main">
-        <div class="banner">
-            <div class="slideshow img1">
-                <img src="img/la.jpg">
-                <div class="img-text">
-                    <h3>Los Angeles</h3>
-                    <p><b>We had the best time playing at Venice Beach!</b></p>
-                </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="slideshow img2">
-                <img src="img/ny.jpg">
-                <div class="img-text">
-                    <h3>New York</h3>
-                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>
-                </div>
-            </div>
-            <div class="slideshow img3">
-                <img src="img/chicago.jpg">
-                <div class="img-text">
-                    <h3>Chicago</h3>
-                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>
-                </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-        <div class="container" id="band">
-            <h1 style="margin-bottom:20px">THE BAND</h1>
-            <p style="margin-bottom:20px"><i >We love music</i></p>
-            <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="image-container">
-                <div class="image-container3">
-                    <p>Name</p>
-                    <img src="img/bandmember.jpg" alt="">
-                </div>
-                <div class="image-container3">
-                    <p>Name</p>
-                    <img src="img/bandmember.jpg" alt="">
-                </div>
-                <div class="image-container3">
-                    <p>Name</p>
-                    <img src="img/bandmember.jpg" alt="">
-                </div>
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-title">Los Angeles</h2>
+                <p class="text-desc">We had the best time playing at Venice Beach!</p>
             </div>
         </div>
-        <div class="tour" id="tour">
-            <h1 style="margin-bottom:20px">TOUR DATES</h1>
-            <p style="margin-bottom:20px"><i>Remember to book your tickets!</i></p>
-            <div class="products">
-                <div class="months">
-                    <ul class="months-items">
-                        <li class="months-item"><a>September <span>Sold out</span></a></li>
-                        <hr>
-                        <li class="months-item"><a>October <span>Sold out</span></a></li>
-                        <hr>
-                        <li class="months-item">
-                            <a>November</a>
-                            <i>3</i>
-                        </li>
+        <div id="content">
+            <div id="band" class="content-section">
+                <h2 class="section-title">The Band</h2>
+                <p class="section-sub">We love music!</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="members">
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img class="member-img" src="https://www.w3schools.com/bootstrap/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img class="member-img" src="https://www.w3schools.com/bootstrap/bandmember.jpg" alt="">
+                    </div>
+                    <div class="member">
+                        <p class="member-name">Name</p>
+                        <img class="member-img" src="https://www.w3schools.com/bootstrap/bandmember.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="tour" class="tour-section">
+                <div class="content-section text-white">
+                    <h2 class="section-title">Tour Dates</h2>
+                    <p class="section-sub">Remember to book your tickets!</p>
+                    <ul class="months">
+                        <li>September<span  class="sold-out">Sold out</span></li>
+                        <li>October<span class="sold-out">Sold out</span></li>
+                        <li>November<span class="quantity">3</span></li>
                     </ul>
-                </div>
-                <div class="product-items">
-                    <div class="product">
-                        <img src="img/newyork.jpg" alt="NewYork">
-                        <h3>New York</h3>
-                        <p>Fri 27 Nov 2016</p>
-                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
-                        <button class="button">Buy Tickets</button>
-                    </div>
-                    <div class="product">
-                        <img src="img/\paris.jpg" alt="Paris">
-                        <h3>Paris</h3>
-                        <p>Sat 28 Nov 2016</p>
-                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
-                        <button class="button">Buy Tickets</button>
-                    </div>
-                    <div class="product">
-                        <img src="img/sanfran.jpg" alt="San Francisco">
-                        <h3>San Francisco</h3>
-                        <p>Sun 29 Nov 2016</p>
-                        <p>Praesent tincidunt sed tell us ut rutrum sed vitae justo.</p>
-                        <button class="button">Buy Tickets</button>
-                        <div class="payment-modal">
-                            <!-- Nội dung thanh toán -->
-                            <div class="payment-tickets">
-                                <div class="payment-header">
-                                    <i class="fa-solid fa-xmark"></i>
-                                    <div class="payment-title">
-                                        <h2 style="font-weight: 100;"><i class="fa-solid fa-suitcase"></i> Tickets</h2>
-                                    </div>
-                                </div>
-                                <div class="payment-body">
-                                    <form action="#" method="post">
-                                        <div class="payment-buy">
-                                            <p style="margin-top:20px; "><i class="fa-solid fa-cart-shopping"></i>
-                                                Tickets, $15 per person </p>
-                                            <input type="text" class="payment-text" name="name" placeholder="How many?"
-                                                required>
-                                            <p><i class="fa-solid fa-user"></i> Send To</p>
-                                            <input type="email" class="payment-email" name="email"
-                                                placeholder="Enter Email" required>
-                                        </div>
-                                        <button type="submit" class="payment-pay">PAY <i
-                                                class="fa-solid fa-check"></i></button>
-                                    </form>
-                                </div>
-                                <div class="payment-footer" style="
-                                height:80px;
-                                background-color:#fff;display: flex;
-                                flex-direction: row;
-                                text-align:center;
-                                align-items: center; margin:0;padding:0;">
-                                    <button>Close X</button>
-                                    <p style="position:absolute; right:0;margin-right:10px;">Need<a href="" class=""><i>
-                                                help?</i></a></p>
-
-                                </div>
+                    <div class="tickets">
+                        <div class="ticket">
+                            <img class="ticket-img" src="https://www.w3schools.com/w3images/newyork.jpg" alt="">
+                            <div class="ticket-info">
+                                <h3 class="ticket-place">New York</h3>
+                                <p class="ticket-date">Fri 27 Nov 2016</p>
+                                <p class="ticket-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="ticket-btn">Buy ticket</button>
+                            </div>
+                        </div>
+                        <div class="ticket">
+                            <img class="ticket-img" src="https://www.w3schools.com/w3images/paris.jpg" alt="">
+                            <div class="ticket-info">
+                                <h3 class="ticket-place">Paris</h3>
+                                <p class="ticket-date">Sat 28 Nov 2016</p>
+                                <p class="ticket-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="ticket-btn">Buy ticket</button>
+                            </div>
+                        </div>
+                        <div class="ticket">
+                            <img class="ticket-img" src="https://www.w3schools.com/w3images/sanfran.jpg" alt="">
+                            <div class="ticket-info">
+                                <h3 class="ticket-place">San Francisco</h3>
+                                <p class="ticket-date">Sun 29 Nov 2016</p>
+                                <p class="ticket-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="ticket-btn">Buy ticket</button>
                             </div>
                         </div>
                     </div>
+                </div>               
+            </div>
+            <div id="contact" class="content-section">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-sub">Fan? Drop a note!</p>
+                <div class="contact">
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="contact-input">
+                        <form action="">
+                            <div class="input-your">
+                                <div class="input-your-info">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="input-your-info">
+                                    <input type="email"placeholder="Email" required>
+                                </div>
+                            </div>
+                            <input class="mess" type="text" placeholder="Message" required>
+                            <input class="send" type="submit" value="SEND">
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="contact-container" id="contact">
-            <h1 class="contact-title">CONTACT</h1>
-            <p>Fan?Drop a note!</p>
-            <div class="contact-type">
-                <div class="contact-info">
-                    <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
-                    <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
-                    <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
-                </div>
-                <span class="feedback">
-                    <form action="#" method="post">
-                        <div class="contact-input-container">
-                            <input type="text" class="contact-input" name="name" placeholder="Name" required>
-                            <input type="email" class="contact-input" name="email" placeholder="Email" required>
-                        </div>
-                        <input type="text" class="contact-input" name="message" placeholder="Message" required></input>
-                        <button type="submit" class="contact-button">SEND</button>
-                    </form>
-                </span>
+            <div class="map">
+                <img src="https://www.w3schools.com/w3css/map.jpg" alt="">
             </div>
         </div>
-        <div>
-            <img src="img/map.jpg" alt="" style="width: 1550px;;
-            height: 800px;">
+
+        <div id="footer">
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="end">Powered by <a href="#">w3.css</a></p>
         </div>
     </div>
 
+    <div class="model">
+        <div class="model-container">
+            <div class="model-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <header class="model-header">
+                <i class="fa-solid fa-suitcase"></i>
+                Tickets
+            </header>
+            <div class="model-body">
+                <label for="input1" class="model-label">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id="input1" type="text" class="model-input" placeholder="How many?">
+                <label for="input2" class="model-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send To
+                </label>
+                <input id="input2" type="email" class="model-input" placeholder="Enter email">
 
-</body>
-<footer>
-    <div class="footer" style="text-align: center; height:100px; margin-top:50px; margin-left:5px;">
-        <form action="#" method="post">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-square-snapchat"></i>
-            <p style="margin-top:10px;color:darkgrey">Powered by 
-                <a style="color:darkgrey" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3css</a>
-            </p>
-        </form>
+                <button class="model-btn">
+                    Pay<i class="fa-solid fa-check"></i>
+                </button>
 
-
+                <p class="model-help">Need <a href="#">help?</a></p>
+            </div>
+        </div>
     </div>
-</footer>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const buyButtons = document.querySelectorAll(".button");
-        const paymentModal = document.querySelector(".payment-modal");
 
-        for (const buyButton of buyButtons) {
-            buyButton.addEventListener("click", function () {
-                paymentModal.style.display = "flex";
-            });
+    <script src="https://kit.fontawesome.com/8ad974e593.js" crossorigin="anonymous"></script>
+    <script>
+        const btns = document.querySelectorAll(".ticket-btn")
+        const closebtn = document.querySelector(".model-close")
+        const model = document.querySelector('.model')
+        const modelCon = document.querySelector('.model-container')
+
+        function showBuyT() {
+            model.classList.add('model-open')
+        } 
+
+        function closeBuyT(){
+            model.classList.remove('model-open')
         }
 
-        const closeButton = document.querySelector(".payment-footer button");
-        const closeXButton = document.querySelector(".payment-header i");
+        for (const btn of btns){
+            btn.addEventListener('click',showBuyT)
+        }
 
-        closeButton.addEventListener("click", function () {
-            paymentModal.style.display = "none";
-        });
+        closebtn.addEventListener('click',closeBuyT)
 
-        closeXButton.addEventListener("click", function () {
-            paymentModal.style.display = "none";
-        });
-    });
+        model.addEventListener('click',closeBuyT)
+        modelCon.addEventListener('click', function (e){
+            e.stopPropagation()
+        })
 
-</script>
+        var menu = document.querySelector('.menu')
+        var header = document.querySelector('#header')
+        var headerHeight = header.clientHeight;
 
+        menu.addEventListener('click', function(){
+            var isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height = 'auto'
+            }
+            else{
+                header.style.height = null
+            }
+        })
+
+        var menuItems = document.querySelectorAll('.nav li a')
+        for(var i=0; i< menuItems.length; i++ ){
+            var menuItem = menuItems[i];
+            menuItem.onclick = function(e){
+                var isSub = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav') 
+                if(isSub){
+                    e.preventDefault();
+                }
+                else{
+                    header.style.height = null
+                }
+            }
+        }
+    </script>
+</body>
 </html>
